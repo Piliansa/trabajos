@@ -1,0 +1,117 @@
+@import url('http://fonts.cdnfonts.com/css/graphic-attitude');
+@import url('http://fonts.cdnfonts.com/css/budmo-jiggler-jigglish');
+@import url('http://fonts.cdnfonts.com/css/bm-stamp');
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: black;
+
+}
+h1 {
+    /* margin-bottom: 0; */
+    padding-top: -15px;
+    color: blue;
+}
+h2 {
+    color: white;
+    font-family: 'Budmo Jiggler', sans-serif;
+    letter-spacing: 4pt;
+}
+#boton {
+    /* width: ; */
+    height: 60pt;
+    font-family: 'Budmo Jiggler', sans-serif;
+    font-size: 60px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, #80b918,#4565d9);
+}
+.titulo {
+    /* font-family: 'GraphicAttitude', sans-serif; */
+    font-family: 'BM stamp', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+.contenedor {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+
+}
+.cuadro { 
+    width: 20rem;
+    height:20rem;
+}
+.verde {
+    background-color: #80b918;
+    border-top-left-radius:100%;
+    margin: 5px;
+
+}
+.verde-fuerte {
+    background-color: green;
+}
+.rojo {
+    background-color: #fa442a;
+    border-top-right-radius: 100%;
+    margin: 5px;
+}
+.rojo-fuerte {
+    background-color: red;
+}
+.azul {
+    background-color: #4565d9;
+    border-bottom-left-radius: 100%;
+    margin: 5px;
+}
+.azul-fuerte {
+    background-color: blue;
+}
+.amarillo {
+    background-color: #ffdd00;
+    border-bottom-right-radius: 100%;
+    margin: 5px;
+}
+.amarillo-fuerte {
+    background-color: yellow;
+}
+.center {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: black;
+    top: 50%;
+    bottom: 50%;
+    position: absolute;
+
+}
+button {
+    width: 150px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+.cuadro {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+/* 
+    height: 40%; */
+}
+.right .left {
+    height: 60vh;
+    width:40%;
+    margin: 0;
+    /* height: 100vh; */
+}
+.top {
+    margin-bottom: .5rem;
+}
+.button {
+    margin-top: .5rem;
+}
