@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PPT</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+   </head>
+
+<body>
+    <audio id="audioClick" src="multimedia/Pickup_Coin2.wav">&af;</audio>
+    <audio id="audioEmpate" src="multimedia/empate.wav">&af;</audio>
+    <audio id="audioGanaste" src="multimedia/ganaste.wav">&af;</audio>
+    <audio id="audioperdiste" src="multimedia/perdiste.wav">&af;</audio>
+    <div class="portada">
+        <ul>
+            <li>¡PIEDRA,</li>
+            <li>PAPEL</li>
+            <li>O TIJERA!</li>
+        </ul>
+    </div>
+    <div class="game">
+        <h1>SELECCIONÁ UNA OPCIÓN:</h1>
+        <div class="juego">
+            <div class="titulos">
+                <span  class="titulo"><b>Piedra</b></span>
+                <span  class="titulo"> <b>Papel</b></span>
+                <span  class="titulo"><b>Tijera</b></span>
+
+            </div>
+            <div class="imagenes">
+                <div class="img">
+                    <img  id="rock" src="rock.png" alt="piedra" height="150">
+                </div>
+                <div class="img">
+                    <img id="paper" src="paper.png" alt="papel" height="150">
+                </div>
+                <div class="img">
+                    <img id="scissor" src="scissor.png" alt="tijera" height="150">
+                </div>
+
+            </div>
+        </div>
+        <div class="play">
+            <img id="jugador" class="jugador" src="mano.png" alt="piedra de jugador" height="150">
+            <img id="computadora" class="computadora" src="manoder.png" alt="piedra de computadora" height="150">
+        </div>
+        <h1 id="resultado">&af;</h1>
+    </div>
+    <div class="burbujas">
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+        <div class="burbuja"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

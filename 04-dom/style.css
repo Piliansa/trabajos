@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+@import url("https://fonts.googleapis.com/css2family=Fredoka+One&display=swap");
+.texto {
+    background-color: #2e6f95;
+    text-align: center;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color:#c9e4de ;
+    text-align: center;
+    background-size: 100%;
+    background-image: url(fondo.png);
+}
+.burbuja{
+    border-radius: 50%;
+    background: #fff;
+    opacity: .3;
+    position: absolute;
+    bottom: -150;
+    animation: burbujas 3s linear infinite ;
+}
+
+.burbuja:nth-child(1){
+    width: 80px;
+    height: 80px;
+    left: 5%;
+    animation-duration: 3s;
+    animation-delay: 3s;
+}
+
+.burbuja:nth-child(2){
+    width: 100px;
+    height: 100px;
+    left: 35%;
+    animation-duration: 3s;
+    animation-delay: 5s;
+}
+
+.burbuja:nth-child(3){
+    width: 20px;
+    height: 20px;
+    left: 15%;
+    animation-duration: 1.5s;
+    animation-delay: 7s;
+}
+
+.burbuja:nth-child(4){
+    width: 50px;
+    height: 50px;
+    left: 90%;
+    animation-duration: 6s;
+    animation-delay: 3s;
+}
+
+.burbuja:nth-child(5){
+    width: 70px;
+    height: 70px;
+    left: 65%;
+    animation-duration: 3s;
+    animation-delay: 1s;
+}
+
+.burbuja:nth-child(6){
+    width: 20px;
+    height: 20px;
+    left: 50%;
+    animation-duration: 4s;
+    animation-delay: 5s;
+}
+
+.burbuja:nth-child(7){
+    width: 20px;
+    height: 20px;
+    left: 50%;
+    animation-duration: 4s;
+    animation-delay: 5s;
+}
+
+.burbuja:nth-child(8){
+    width: 100;
+    height: 100px;
+    left: 52%;
+    animation-duration: 5s;
+    animation-delay: 5s;
+}
+
+.burbuja:nth-child(9){
+    width: 65px;
+    height: 65px;
+    left: 51%;
+    animation-duration: 3s;
+    animation-delay: 2s;
+}
+
+.burbuja:nth-child(10){
+    width: 40px;
+    height: 40px;
+    left: 35%;
+    animation-duration: 3s;
+    animation-delay: 4s;
+}
+
+
+@keyframes burbujas{
+    0%{
+        bottom: 0;
+        opacity: 0;
+    }
+    30%{
+        transform: translateX(30px);
+    }
+    50%{
+        opacity: .4;
+    }
+    100%{
+        bottom: 100vh;
+        opacity: 0;
+    }
+}
+.portada {
+    height: 140pt;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+ul {
+    list-style: none;
+    position: absolute;
+    margin: 0;
+    font-size: 100pt;
+    color: #2e6f95;
+    font-weight: bold;
+    font-family: 'Fredoka One', cursive;
+    padding: 10px;
+    animation: cambiar 7s infinite;
+    animation-timing-function:cubic-bezier(1, 0, 0, 1);
+    color: #e39e00;
+}
+h1 {
+    font-size: 3rem;
+    margin: 0;
+    font-family: 'Baloo Tammudu 2', cursive;
+    color: #f12a04 ;
+}
+@keyframes cambiar {
+    0% {margin-top: 0;}
+    20% {margin-top: 0;}
+
+    25% {margin-top: -140pt;}
+    50% {margin-top: -140pt;}
+
+    55% {margin-top: -280pt;}
+    80% {max-resolution: -280pt;}
+
+    85% {margin-top: -320pt;}
+  
+
+    100% {margin-bottom: 0;}
+
+}
+.texto {
+    font-size: 4rem;
+    text-align: center;
+    font-family:  'Baloo Tammudu 2', cursive;
+    color: #c9e4de;
+    margin: 2.6rem 0 0 0;
+}
+.game {
+    height: 15.62em;
+    padding: 0 15em 0 15em;
+    /* border-style: solid;
+    border-color: #455e89; */
+   
+}
+.titulos {
+    display: flex;
+    justify-content: center; /*justifica horizontalmente*/
+    align-items: center; /*centra verticalmente*/
+    justify-content: space-around;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+/* .portada {
+
+} */
+.titulo {
+     font-size: 2rem ;
+     font-family:  'Baloo Tammudu 2', cursive;
+     color:#455e89 ;
+}
+
+.imagenes {
+    width: 37,5rem;
+    display: flex;
+    justify-content: center; /*justifica horizontalmente*/
+    align-items: center; /*centra verticalmente*/
+    justify-content: space-around;
+}     
+
+.juego {
+    width: 100%;
+    height: 100%;
+  
+}
+.play {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.jugador, .computadora {
+    margin: 2rem;
+}
+.img {
+    cursor: pointer;
+}
+.jugador1 {
+    animation-name: movimientoJugador;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* animation-fill-mode: both; */
+}
+.computadora1 {
+    animation-name: movimientoComputadora;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* animation-fill-mode: forwards; viene por defecto*/
+}
+.img img {
+    z-index: -1;
+    border-style: solid;
+    border-color: #2e6f95;
+}
+@keyframes movimientoJugador {
+    
+    20% { transform: rotate(-45deg);}
+    50%, 54%, 60%, 64%, 70%, 74%, 80%  {
+        transform: rotate(-90deg);
+    }
+    56%, 58%, 66%, 68%, 76%, 78% {
+        transform: rotate(-45deg);
+    }
+    100% {
+        transform: rotate(-90deg);
+    }
+
+}
+@keyframes movimientoComputadora {
+    
+    20% { transform: rotate(45deg);}
+    50%, 54%, 60%, 64%, 70%, 74%, 80% {
+        transform: rotate(90deg);
+    }
+     56%, 58%, 66%, 68%, 76%, 78% {
+        transform: rotate(45deg);
+    }
+    100% {
+        transform: rotate(90deg);
+    }
+}

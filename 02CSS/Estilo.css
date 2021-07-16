@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Pacifico&display=swap');
+body {
+    width: 100%; /*viewport width*/
+    height:100%; /* viewport height */
+     /* 16px = 1em = 100% */
+     margin: 1px;
+     font-family: 'Bebas Neue', cursive;
+     background-color: #E59500;
+
+     font-size: 150%;
+     
+     /*display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;*/
+  
+}
+p {
+    font-weight: lighter;
+    font-size: 100%;
+    text-align: justify;
+    color: #E59500;
+    background-color: #002642;;
+}
+h1 {
+   
+    font-size: 100%;
+    text-align: center;
+}
+h2 {
+   text-align: center;
+    background-color: #840032;
+    ;
+    
+}
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+   
+}
+ul {
+    
+    text-align: justify;
+    background-color: #E5DADA;
+}
+.body { background-color: paleturquoise;
+    font-size: 1px;
+  
+}
+.central {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     
+}
+.otro {
+   
+    width: 100%;
+    height: 50%;
+    
+    /*position: relative;
+      position: absolute;
+      display: inline-block;
+      right: 10px;
+    */
+  
+}
+.list {
+    width: 100%;
+    height: 100%; 
+}
+#title {
+    color:  #840032;
+    font-size: 10rem;
+    margin: 1px;
+    
+    /*font-size: 15rem;
+    font-size: 8em;  en los navegadores viejos se tomaba en cuenta que el ancho y el alto de la letra M., 
+    un em; significan 16px  es una unidad de medida ABSOLUTA. Esta unidad de medida permite aumentar en caso
+     de modificar el tamaño de las fuentes en el navegador.
+     Se puede poner en numero decimal*/
+}
+#reflexion {
+    color: #002642;
+}
+.paragraph {
+    width: 100%;
+    height: 100%;
+}
