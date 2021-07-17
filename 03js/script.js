@@ -1,6 +1,6 @@
 let preguntas = [
     {
-        texto: "¿Cuál es el lugar más frío de la tierra?",
+        texto: "¿Cuál es el lugar más frío de la tierra? - Responda con el numero correspondiente",
         opciones: [
             "Antartida",
             "Rusia",
@@ -10,7 +10,7 @@ let preguntas = [
         respuesta: 0
     },
     {
-       texto: "¿Cuál es la avenida más ancha del mundo?",
+       texto: "¿Cuál es la avenida más ancha del mundo? Responda con el numero correspondiente",
        opciones: [
            "Gral. Paz",
            "Arturo Illia",
@@ -20,7 +20,7 @@ let preguntas = [
        respuesta: 2 //este numero es el índice
     },
     {
-        texto: "¿En qué continente está Ecuador?",
+        texto: "¿En qué continente está Ecuador? Responda con el numero correspondiente",
         opciones: [
             "América",
             "Asia",
@@ -30,7 +30,7 @@ let preguntas = [
         respuesta: 0
      },
      {
-         texto: "¿Cual de los siguientes es un color primario?",
+         texto: "¿Cual de los siguientes es un color primario? Responda con el numero correspondiente",
          opciones: [
              "Negro",
              "amarillo",
@@ -40,7 +40,7 @@ let preguntas = [
          respuesta: 1
      },
      {
-         texto: "¿Quién es el creador del cuadro 'el grito'?",
+         texto: "¿Quién es el creador del cuadro 'el grito'? Responda con el numero correspondiente",
          opciones: [
              "Pablo Picasso",
              "Edvard Munch",
