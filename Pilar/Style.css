@@ -9,7 +9,7 @@ body {
     width: 100vw;
     height: 100vh;
     font-size: 14px;
-background-color: #fff;}
+    background-color: #fff;}
 section {
     display: block;
     text-align: center;
@@ -87,10 +87,10 @@ li {
     justify-content: center;
 }
 #land {
- width: 800px;
-height: 350px;
- position: absolute;
- bottom: 0;
+    width: 800px;
+    height: 350px;
+    position: absolute;
+    bottom: 0;
 }
 .img {
     width: 100%;
@@ -139,9 +139,9 @@ height: 350px;
 .cloud1 {
     position: absolute;
     width: 150px;
-    height: 45px;
-   left: 6rem;
-   top: 0;
+    height: 85px;
+    left: 6rem;
+    top: 0;
 }
 .name { 
     width: 100%;
@@ -154,10 +154,10 @@ height: 350px;
     justify-content: center;
 }
 .pres {
- height: 10rem;
- display: flex;
- align-items: center;
- justify-content: center;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #name {
     width: 40%;
@@ -166,9 +166,9 @@ height: 350px;
 .cloud2 {
     position: absolute;
     width: 150px;
-    height: 45px;
-  right: 6rem;
-  bottom: 0;
+    height: 85px;
+    right: 6rem;
+    bottom: 0;
 }
 #cloud {
     width: 100%;
